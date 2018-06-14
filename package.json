@@ -1,0 +1,19 @@
+{
+  "name": "wdio-sample",
+  "version": "1.0.0",
+  "description": "Sample tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.13",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.15.0",
+    "wdio-selenium-standalone-service": "0.0.10"
+  }
+}
